@@ -18,7 +18,6 @@ This project demonstrates a workflow involving web scraping, comparing scraped c
 - [License](#license)
 
 
-##workflow
 Step 1: Purpose: This code scrapes text content from a given URL (in this case, a Wikipedia page on web scraping), extracts the text from paragraph tags, and saves it to a file. It also displays the scraped content as an image.
 
 step-2:Purpose: This code uses a pre-trained GPT-2 model to generate text based on a query ("Web scraping"). It saves the generated text to a file and displays it as an image.
