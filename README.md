@@ -15,7 +15,6 @@ This project demonstrates a workflow involving web scraping, comparing scraped c
   - [Step 4: Store Results in a Vector Database](#step-4-store-results-in-a-vector-database)
   - [Step 5: Automate Query Handling](#step-5-automate-query-handling)
   - [Step 6: Apply LoRA-based Quantization](#step-6-apply-lora-based-quantization)
-- [License](#license)
 
 
 Step 1: Purpose: This code scrapes text content from a given URL (in this case, a Wikipedia page on web scraping), extracts the text from paragraph tags, and saves it to a file. It also displays the scraped content as an image.
