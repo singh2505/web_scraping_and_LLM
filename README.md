@@ -17,16 +17,8 @@ This project demonstrates a workflow involving web scraping, comparing scraped c
   - [Step 6: Apply LoRA-based Quantization](#step-6-apply-lora-based-quantization)
 - [License](#license)
 
-## Installation
 
-To get started, clone this repository and install the necessary libraries:
-
-```sh
-git clone <repository-url>
-cd <repository-directory>
-pip install beautifulsoup4 requests transformers faiss-cpu peft torch
-
-## workflow
+##workflow
 Step 1: Purpose: This code scrapes text content from a given URL (in this case, a Wikipedia page on web scraping), extracts the text from paragraph tags, and saves it to a file. It also displays the scraped content as an image.
 
 step-2:Purpose: This code uses a pre-trained GPT-2 model to generate text based on a query ("Web scraping"). It saves the generated text to a file and displays it as an image.
@@ -36,6 +28,18 @@ step-3:Purpose: This code converts the scraped text and the LLM-generated text i
 step:4-Purpose: This code searches the FAISS index for the vector most similar to a query vector and returns the index of the closest match. This is useful for quickly finding similar content based on vector embeddings.
 
 step-5-Purpose: This code configures and applies LoRA (Low-Rank Adaptation) to the model to make it more parameter-efficient. It benchmarks the model's performance before and after applying quantization, demonstrating the impact on inference time. Quantization reduces the model size and speeds up inference by converting model weights to a lower precision.
+
+## Installation
+
+To get started, clone this repository and install the necessary libraries:
+
+```sh
+git clone <repository-url>
+cd <repository-directory>
+pip install beautifulsoup4 requests transformers faiss-cpu peft torch
+
+
+
 
 
 
